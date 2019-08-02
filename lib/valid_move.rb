@@ -5,17 +5,16 @@ def valid_move(board, index)
       return false
     else
       return true
-
+    end
   else
     return false
   end
 
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
-def position_taken?(board, index)
-  place = board[index]
-  if place == " " or place == "" or place == nil
-    return false
-  else
-    return true
-  end
-end
+# def position_taken?(board, index)
+#   place = board[index]
+#   if place == " " or place == "" or place == nil
+#     return false
+#   else
+#     return true
+# end
